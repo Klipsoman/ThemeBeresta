@@ -136,29 +136,31 @@
 
         <div class="pictures__box a picture">
           <img class="pictures__a" src="<?= get_template_directory_uri(); ?>/img/relax_zone/DSC_0192.JPG"
-            alt="relax_zone">
+            alt="relax_zone" loading="lazy">
           <div class="pictures__title pictures__title--overlay">Зона отдыха</div>
         </div>
 
         <div class="pictures__box b picture">
-          <img class="pictures__b" src="<?= get_template_directory_uri(); ?>/img/sauna/DSC_0179.JPG" alt="sauna">
+          <img class="pictures__b" src="<?= get_template_directory_uri(); ?>/img/sauna/DSC_0179.JPG" alt="sauna"
+            loading="lazy">
           <div class="pictures__title pictures__title--overlay">Баня</div>
         </div>
 
         <div class="pictures__box c picture">
-          <img class="pictures__c" src="<?= get_template_directory_uri(); ?>/img/bathroom/IMG_7616.png" alt="bathroom">
+          <img class="pictures__c" src="<?= get_template_directory_uri(); ?>/img/bathroom/IMG_7616.png" alt="bathroom"
+            loading="lazy">
           <div class="pictures__title pictures__title--overlay">Парная</div>
         </div>
 
         <div class="pictures__box d picture">
           <img class="pictures__d" src="<?= get_template_directory_uri(); ?>/img/swimming_pool/DSC_0168.JPG"
-            alt="swimming_pool">
+            alt="swimming_pool" loading="lazy">
           <div class="pictures__title pictures__title--overlay">Бассейн</div>
         </div>
 
         <div class="pictures__box e">
           <img class="pictures__e picture" src="<?= get_template_directory_uri(); ?>/img/territory/DSC_0212.JPG"
-            alt="territory">
+            alt="territory" loading="lazy">
           <div class="pictures__title">Территория</div>
         </div>
 
@@ -170,6 +172,7 @@
         <div class="price__wrapper">
           <h2 class="price__title">Стоимость за час аренды бани</h2>
           <div class="about__line"></div>
+
           <div class="price__week">
             <div class="price__monday text box">пн-чт</div>
             <div class="price__friday text box">пт-вс*</div>

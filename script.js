@@ -84,6 +84,7 @@ pictures.forEach((picture) => {
         if (!type) {
             return;
         }
+
         const slides = modalGallery.querySelectorAll('.swiper-slide');
         slides.forEach((slide) => {
             const slideImg = slide.querySelector('img');
@@ -95,6 +96,7 @@ pictures.forEach((picture) => {
             
             slide.style.display = 'none';
         })
+        swiper.slideTo(0);
     });
 });
 
