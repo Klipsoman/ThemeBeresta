@@ -52,7 +52,6 @@ burger.addEventListener('click', () => {
 const mobileBookingBtn = document.getElementById('mobile-menu__reserve');
 
 mobileBookingBtn.addEventListener('click', () => {
-    document.body.style.overflow = 'hidden';
     modalForm.style.display = 'flex';
 });
 

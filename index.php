@@ -90,10 +90,6 @@
                 20
                 км от
                 КАДа по хорошей дороге</p>
-              <?php 
-                $aa = get_site_url();
-                print_r($aa);
-                ?>
             </div>
           </div>
         </div>
