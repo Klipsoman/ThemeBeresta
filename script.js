@@ -5,12 +5,14 @@ const modalFormCancelBtn = document.getElementById('modal-form__cancel-btn');
 
 reserveBtns.forEach((btn) => {
 		btn.addEventListener('click', () => {
+        document.body.style.overflow = 'hidden';
    		modalForm.style.display = 'flex';
 	});
 });
 
 modalFormCancelBtn.addEventListener('click', () => {
     modalForm.style.display = 'none';
+    document.body.style.overflow = 'visible';
 });
 
 // Scroll to #ankor links
@@ -47,12 +49,6 @@ burger.addEventListener('click', () => {
     }
     mobileMenu.classList.add('active');
     burger.classList.add('active');
-});
-
-const mobileBookingBtn = document.getElementById('mobile-menu__reserve');
-
-mobileBookingBtn.addEventListener('click', () => {
-    modalForm.style.display = 'flex';
 });
 
 // Slider gallery

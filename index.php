@@ -50,7 +50,7 @@
             <a href="#"><img src="<?= get_template_directory_uri(); ?>/img/icons/vk.png" alt="vk"></a>
           </div>
           <a href="tel:89215697878" class="mobile-menu__phone header__phone phone">+7 (921) 569-78-78</a>
-          <button class="mobile-menu__reserve header__reserve" id="mobile-menu__reserve">Забронировать</button>
+          <button class="mobile-menu__reserve header__reserve reserve-btn" id="mobile-menu__reserve">Забронировать</button>
         </div>
       </div>
       <div class="mobile-menu__wrapper"></div>
