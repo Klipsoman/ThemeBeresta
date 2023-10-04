@@ -168,21 +168,19 @@
           <h2 class="price__title">Стоимость за час аренды бани</h2>
           <div class="about__line"></div>
 
-          <div class="price__week">
-            <div class="price__monday text box">пн-чт</div>
-            <div class="price__friday text box">пт-вс*</div>
-          </div>
-
-          <div class="price__day text box">
-            <span>день (9:00 - 17:00)</span>
-            <span>2300</span>
-            <span>2500</span>
-          </div>
-
-          <div class="price__evening text box">
-            <span>вечер (17:00 - 00:00)</span>
-            <span>2500</span>
-            <span>3000</span>
+          <div class="price__schedulle schedulle">
+            <div class="schedulle__item">
+              <span></span>
+              <span>пн-чт / пт-вс*</span>
+            </div>
+            <div class="schedulle__item">
+              <span>день (9:00 - 17:00)</span>
+              <span>2300 / 2500</span>
+            </div>
+            <div class="schedulle__item">
+              <span>вечер (17:00 - 00:00)</span>
+              <span>2500 / 3000</span>
+            </div>
           </div>
 
           <div class="price__min-time text box">Минимальное время бронирования 3 часа. <br> При заказе от 4-х
