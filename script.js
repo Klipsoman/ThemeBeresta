@@ -4,10 +4,10 @@ const modalForm = document.getElementById('modal-form');
 const modalFormCancelBtn = document.getElementById('modal-form__cancel-btn');
 
 reserveBtns.forEach((btn) => {
-		btn.addEventListener('click', () => {
+    btn.addEventListener('click', () => {
         document.body.style.overflow = 'hidden';
-   		modalForm.style.display = 'flex';
-	});
+        modalForm.style.display = 'flex';
+    });
 });
 
 modalFormCancelBtn.addEventListener('click', () => {
@@ -52,7 +52,6 @@ burger.addEventListener('click', () => {
 });
 
 // Slider gallery
-
 const modalGallery = document.getElementById('modal-gallery');
 const pictures = document.querySelectorAll('.pictures__box');
 
@@ -75,7 +74,7 @@ pictures.forEach((picture) => {
 
         const img = picture.querySelector('img');
         const type = img.getAttribute('alt');
-        
+
         if (!type) {
             return;
         }
@@ -83,12 +82,12 @@ pictures.forEach((picture) => {
         const slides = modalGallery.querySelectorAll('.swiper-slide');
         slides.forEach((slide) => {
             const slideImg = slide.querySelector('img');
-            
+
             if (slideImg.getAttribute('alt').includes(type)) {
                 slide.style.display = 'block';
                 return;
             }
-            
+
             slide.style.display = 'none';
         })
         swiper.slideTo(0);
@@ -99,4 +98,13 @@ modalGallery.addEventListener('click', (e) => {
     if (modalGallery.style.display === 'flex' && e.target === modalGallery) {
         modalGallery.style.display = 'none';
     }
+});
+
+// validate phone
+let phoneInput = document.querySelector('input[name="your-phone"]');
+
+phoneInput.setAttribute('pattern', "[^0-9]/g");
+phoneInput.addEventListener('input', function () {
+    if (!/[^0-9]/g.test(this.value)) return;
+    this.value = this.value.replace(/[^0-9]/g, '');
 });
