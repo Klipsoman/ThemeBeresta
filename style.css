@@ -522,9 +522,8 @@ button:hover {
 }
 
 .modal-form__body {
-/*   width: 55%; */
   position: relative;
-  padding: 75px 50px;
+  padding: 60px 50px;
   border-radius: 15px;
   background-color: rgb(10, 80, 70);
 }
@@ -1028,7 +1027,7 @@ button:hover {
       max-width: 300px;
   }
   .modal-form__body {
-  width: 55%;
-  padding: 35px 15px;
+    width: 65%;
+    padding: 35px 15px;
 }
 }

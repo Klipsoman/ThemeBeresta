@@ -131,31 +131,31 @@
       <div class="pictures__wrapper">
 
         <div class="pictures__box a picture">
-          <img class="pictures__a" src="<?= get_template_directory_uri(); ?>/img/relax_zone/DSC_0192.JPG"
+          <img class="pictures__a" src="<?= get_template_directory_uri(); ?>/img/relax_zone/1DSC_0330.JPG"
             alt="relax_zone" loading="lazy">
           <div class="pictures__title pictures__title--overlay">Зона отдыха</div>
         </div>
 
         <div class="pictures__box b picture">
-          <img class="pictures__b" src="<?= get_template_directory_uri(); ?>/img/sauna/DSC_0179.JPG" alt="sauna"
+          <img class="pictures__b" src="<?= get_template_directory_uri(); ?>/img/sauna/DSC_0284.JPG" alt="sauna"
             loading="lazy">
           <div class="pictures__title pictures__title--overlay">Баня</div>
         </div>
 
         <div class="pictures__box c picture">
-          <img class="pictures__c" src="<?= get_template_directory_uri(); ?>/img/bathroom/IMG_7616.png" alt="bathroom"
+          <img class="pictures__c" src="<?= get_template_directory_uri(); ?>/img/bathroom/DSC_0267.jpg" alt="bathroom"
             loading="lazy">
-          <div class="pictures__title pictures__title--overlay">Парная</div>
+          <div class="pictures__title pictures__title--overlay">Помывочная и санузел</div>
         </div>
 
         <div class="pictures__box d picture">
-          <img class="pictures__d" src="<?= get_template_directory_uri(); ?>/img/swimming_pool/DSC_0168.JPG"
+          <img class="pictures__d" src="<?= get_template_directory_uri(); ?>/img/swimming_pool/DSC_0271.JPG"
             alt="swimming_pool" loading="lazy">
           <div class="pictures__title pictures__title--overlay">Бассейн</div>
         </div>
 
         <div class="pictures__box e">
-          <img class="pictures__e picture" src="<?= get_template_directory_uri(); ?>/img/territory/DSC_0212.JPG"
+          <img class="pictures__e picture" src="<?= get_template_directory_uri(); ?>/img/territory/1DSC_0303.JPG"
             alt="territory" loading="lazy">
           <div class="pictures__title">Территория</div>
         </div>
@@ -252,7 +252,7 @@
         <p class="map__description text">Дорога из центра Санкт-Петербурга на автомобиле займёт всего 60 минут
           без пробок, на общественном транспорте – около 90 минут. Расстояние от КАДа всего 16 км.</p>
 
-        <p class="map__description text">Координаты для навигатора <b>59.67559.675618, 30.102779</b></p>
+        <p class="map__description text">Координаты для навигатора <b>59.675618, 30.102779</b></p>
 
         <iframe
           src="https://yandex.ru/map-widget/v1/?um=constructor%3Af0c91d1177b5cbd4f32e0b16a889537f5e46736a47db4810adfb5e9ec4f90e3b&amp;source=constructor&scroll=false"
@@ -298,7 +298,10 @@
     <div class="modal-form__body">
       <div class="modal-form__cancel-btn" id="modal-form__cancel-btn"></div>
       <div class="modal-form__title">Оставить заявку</div>
-      <?=  do_shortcode('[contact-form-7 id="c90b2e1" title="Форма бронирования"]'); ?>
+      <?= 
+      //  do_shortcode('[contact-form-7 id="c90b2e1" title="Форма бронирования"]'); 
+       do_shortcode('[contact-form-7 id="181e99f" title="Контактная форма 1"]'); 
+       ?>
       <!--       <form class="modal-form__form" action="">
         <fieldset class="modal-form__fieldset">
           <input class="modal-form__input" type="text" name="name" placeholder="Имя">
