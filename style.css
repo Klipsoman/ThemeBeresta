@@ -635,7 +635,7 @@ button:hover {
 
 .modal-gallery__body {
   position: relative;
-  max-width: 550px;
+  max-width: 50%;
   border-radius: 15px;
 }
 
