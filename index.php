@@ -16,17 +16,19 @@
       <div class="header__logo"><a href="#"><img class="header__img"
             src="<?= get_template_directory_uri(); ?>/img/logo.png" alt="logo"></a></div>
       <div class="header__contact">
-        <a href="tel:89215697878" class="header__phone phone">+7 (921) 569-78-78</a>
+        <a href="tel:89817871908" class="header__phone phone">+7 (981) 787-19-08</a>
         <div class="header__location location">Ленинградская область, Гатчинский район, коттеджный посёлок
           Поместье Бауэр, 78</div>
       </div>
 
       <div class="header__network">
-        <a href="#"><img src="<?= get_template_directory_uri(); ?>/img/icons/instagram.png" alt="instagram"></a>
-        <a href="#"><img src="<?= get_template_directory_uri(); ?>/img/icons/vk.png" alt="vk"></a>
+        <a href="https://instagram.com/banyaberesta?igshid=OGQ5ZDc2ODk2ZA==" target="blank"><img
+            src="<?= get_template_directory_uri(); ?>/img/icons/instagram.png" alt="instagram"></a>
+        <a href="https://vk.com/banyaberesta" target="blank"><img
+            src="<?= get_template_directory_uri(); ?>/img/icons/vk.png" alt="vk"></a>
       </div>
 
-      <button class="header__reserve reserve-btn" data-reserve>Забронировать</button>
+      <!--       <button class="header__reserve reserve-btn" data-reserve>Забронировать</button> -->
 
       <div class="burger" id="burger">
         <span></span>
@@ -45,11 +47,13 @@
         </nav>
         <div class="mobile-menu__info">
           <div class="mobile-menu__network header__network">
-            <a href="#"><img src="<?= get_template_directory_uri(); ?>/img/icons/instagram.png" alt="instagram"></a>
-            <a href="#"><img src="<?= get_template_directory_uri(); ?>/img/icons/vk.png" alt="vk"></a>
+            <a href="https://instagram.com/banyaberesta?igshid=OGQ5ZDc2ODk2ZA==" target="blank"><img
+                src="<?= get_template_directory_uri(); ?>/img/icons/instagram.png" alt="instagram"></a>
+            <a href="https://vk.com/banyaberesta" target="blank"><img
+                src="<?= get_template_directory_uri(); ?>/img/icons/vk.png" alt="vk"></a>
           </div>
-          <a href="tel:89215697878" class="mobile-menu__phone header__phone phone">+7 (921) 569-78-78</a>
-          <button class="mobile-menu__reserve header__reserve reserve-btn">Забронировать</button>
+          <a href="tel:89817871908" class="mobile-menu__phone header__phone phone">+7 (981) 787-19-08</a>
+          <!--           <button class="mobile-menu__reserve header__reserve reserve-btn">Забронировать</button> -->
         </div>
       </div>
       <div class="mobile-menu__wrapper"></div>
@@ -131,31 +135,29 @@
 
         <div class="pictures__box a picture">
           <img class="pictures__a" src="<?= get_template_directory_uri(); ?>/img/relax_zone/1DSC_0330.JPG"
-            alt="relax_zone" loading="lazy">
+            alt="relax_zone">
           <div class="pictures__title pictures__title--overlay">Зона отдыха</div>
         </div>
 
         <div class="pictures__box b picture">
-          <img class="pictures__b" src="<?= get_template_directory_uri(); ?>/img/sauna/DSC_0284.JPG" alt="sauna"
-            loading="lazy">
+          <img class="pictures__b" src="<?= get_template_directory_uri(); ?>/img/sauna/DSC_0284.JPG" alt="sauna">
           <div class="pictures__title pictures__title--overlay">Баня</div>
         </div>
 
         <div class="pictures__box c picture">
-          <img class="pictures__c" src="<?= get_template_directory_uri(); ?>/img/bathroom/DSC_0267.jpg" alt="bathroom"
-            loading="lazy">
+          <img class="pictures__c" src="<?= get_template_directory_uri(); ?>/img/bathroom/DSC_0267.JPG" alt="bathroom">
           <div class="pictures__title pictures__title--overlay">Помывочная и санузел</div>
         </div>
 
         <div class="pictures__box d picture">
           <img class="pictures__d" src="<?= get_template_directory_uri(); ?>/img/swimming_pool/DSC_0271.JPG"
-            alt="swimming_pool" loading="lazy">
+            alt="swimming_pool">
           <div class="pictures__title pictures__title--overlay">Бассейн</div>
         </div>
 
         <div class="pictures__box e">
           <img class="pictures__e picture" src="<?= get_template_directory_uri(); ?>/img/territory/1DSC_0303.JPG"
-            alt="territory" loading="lazy">
+            alt="territory">
           <div class="pictures__title">Территория</div>
         </div>
 
@@ -189,7 +191,7 @@
 
           <div class="price__holiday text">*в том числе праздничные дни и каникулы</div>
 
-          <button class="price__reserve reserve-btn">Забронировать</button>
+          <!--           <button class="price__reserve reserve-btn">Забронировать</button> -->
         </div>
       </div>
       </div>
@@ -245,11 +247,17 @@
         <p class="map__description text">Дорога из центра Санкт-Петербурга на автомобиле займёт всего 60 минут
           без пробок, на общественном транспорте – около 90 минут. Расстояние от КАДа всего 16 км.</p>
 
+        <p class="map__location">Ленинградская область, Гатчинский район, коттеджный посёлок
+          Поместье Бауэр, 78</p>
+
         <p class="map__description text">Координаты для навигатора <b>59.675618, 30.102779</b></p>
 
         <iframe
-          src="https://yandex.ru/map-widget/v1/?um=constructor%3Af0c91d1177b5cbd4f32e0b16a889537f5e46736a47db4810adfb5e9ec4f90e3b&amp;source=constructor&scroll=false"
+          src="https://yandex.ru/map-widget/v1/?um=constructor%3A3e1ec137c07a577e9b28a85d22fddcc0195e17c1033bad2031e7c44b78c910e6&amp;source=constructor&scroll=false"
           width="100%" height="500" frameborder="0"></iframe>
+        <!--         <iframe
+          src="https://yandex.ru/map-widget/v1/?um=constructor%3Af0c91d1177b5cbd4f32e0b16a889537f5e46736a47db4810adfb5e9ec4f90e3b&amp;source=constructor&scroll=false"
+          width="100%" height="500" frameborder="0"></iframe> -->
       </div>
     </section>
 
@@ -258,8 +266,8 @@
     <div class="container">
       <div class="footer__wrapper">
         <div class="footer__phone">
-          <p class="footer__title">ТЕЛЕФОН</p> <a href="tel:89215697878" class="foooter__phone phone">+7 (921)
-            569-78-78</a>
+          <p class="footer__title">ТЕЛЕФОН</p> <a href="tel:89817871908" class="foooter__phone phone">+7 (981)
+            787-19-08</a>
         </div>
         <div class="footer__adress">
           <p class="footer__title">АДРЕС</p>
@@ -269,8 +277,10 @@
 
         <div class="footer__network">
           <p class="footer__title">СОЦИАЛЬНЫЕ СЕТИ</p>
-          <a href="#"><img src="<?= get_template_directory_uri(); ?>/img/icons/instagram.png" alt="instagram"></a>
-          <a href="#"><img src="<?= get_template_directory_uri(); ?>/img/icons/vk.png" alt="vk"></a>
+          <a href="https://instagram.com/banyaberesta?igshid=OGQ5ZDc2ODk2ZA==" target="blank"><img
+              src="<?= get_template_directory_uri(); ?>/img/icons/instagram.png" alt="instagram"></a>
+          <a href="https://vk.com/banyaberesta" target="blank"><img
+              src="<?= get_template_directory_uri(); ?>/img/icons/vk.png" alt="vk"></a>
         </div>
       </div>
       <nav>
@@ -292,9 +302,12 @@
       <div class="modal-form__cancel-btn" id="modal-form__cancel-btn"></div>
       <div class="modal-form__title">Оставить заявку</div>
       <?= 
-      //  do_shortcode('[contact-form-7 id="c90b2e1" title="Форма бронирования"]'); 
-       do_shortcode('[contact-form-7 id="181e99f" title="Контактная форма 1"]'); 
+       do_shortcode('[contact-form-7 id="c90b2e1" title="Форма бронирования"]'); 
+      // do_shortcode('[contact-form-7 id="181e99f" title="Контактная форма 1"]'); if local server   
        ?>
+      <div style="color: #FFF;">
+        Оператор свяжется с Вами для подтверждения выбранного времени посещения
+      </div>
       <!--       <form class="modal-form__form" action="">
         <fieldset class="modal-form__fieldset">
           <input class="modal-form__input" type="text" name="name" placeholder="Имя">
@@ -328,10 +341,11 @@
               $files = list_files( TEMPLATEPATH . "/img" . '/' . $name, 1 );
               
               foreach ($files as $file) {
-              $strPath = explode('/', $file)[4] . '/' .  explode('/', $file)[5] . '/' . explode('/', $file)[6];
+              $strPath = explode('/', $file)[9] . '/' .  explode('/', $file)[10] . '/' . explode('/', $file)[11];
+              // $strPath = explode('/', $file)[4] . '/' .  explode('/', $file)[5] . '/' . explode('/', $file)[6]; - if local server
             ?>
           <div class="swiper-slide">
-            <img src="<?= get_template_directory_uri(); ?>/<?= $strPath; ?>" alt="<?= $name; ?>">
+            <img src="<?= get_template_directory_uri(); ?>/<?= $strPath; ?>" alt="<?= $name; ?>" loading="lazy">
           </div>
           <?php
             }

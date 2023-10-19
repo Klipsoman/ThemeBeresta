@@ -304,6 +304,13 @@ button:hover {
   max-width: 600px;
 }
 
+.map__location {
+	font-size: 18px;
+	color: rgb(89, 94, 93);
+	text-align: center;
+	margin-bottom: 15px;
+}
+
 /* PRICE */
 
 .title {
